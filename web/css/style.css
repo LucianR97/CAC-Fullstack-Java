@@ -1,0 +1,247 @@
+
+* {
+    margin:0 auto;
+    padding:0 auto;
+}
+
+/*------NAVBAR------*/
+
+.black {
+    background: black
+}
+
+#navbar a {
+    color:white;
+}
+#btn-barra {
+    background:rgb(85, 85, 85)
+}
+
+#enlaces {
+    text-align: right;
+}
+
+#comprarTickets a {
+    color:green;
+}
+
+.navbar-toggler {
+    margin-right: 10px;
+}
+
+/*--------------------*/
+
+/*-------HEADER-------*/
+
+.img-banner {
+    height: 100vh;
+    width:100vw;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    filter: brightness(0.5)
+}
+.banner{
+    position: relative;
+    color:white;
+    display: inline-block;
+    text-align: center;
+}
+
+.presentacion{
+    color:white;
+    position: absolute;
+    top: 60%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    text-align:right;
+}
+#boton1 {
+    border:1px solid white;
+    color:white;
+}
+.botoncitos {
+    margin-bottom: 5px;
+}
+
+/*--------------------*/
+
+/*-------SECCION ORADORES-------*/
+
+#oradores {
+    text-align:center;
+}
+
+#oradores p {
+    margin-top:10px;
+    font-size: 0.7rem;
+    margin-bottom:0px;
+}
+
+.card-body {
+    text-align:left;
+}
+
+#oradores button {
+    font-size: 0.68rem;
+    padding:2px 4px;
+    font-weight:bold;
+}
+
+.javascript {
+    background:yellow;
+}
+.react {
+    background:rgb(42, 185, 241);
+    color:white;
+}
+
+.negocios {
+    background:grey;
+    color:white;
+}
+
+.startups {
+    background:rgb(228, 36, 36);
+    color:white;
+}
+
+/*--------------------*/
+
+/*-------SECCION LUGAR Y FECHA-------*/
+
+#lugar_y_fecha .card {
+    margin-top:35px;
+}
+
+.card {
+    border-radius: 0px;
+}
+
+#lugar_y_fecha .card-body {
+    color:white;
+    background:rgb(43, 42, 42);
+    height:100%;
+    margin-left: 1px;
+}
+.conoce {
+    color:white;
+    border:1px solid white;
+}
+
+/*--------------------*/
+
+/*-------SECCION COVIERTETE EN ORADOR-------*/
+
+#conviertete {
+    text-align:center;
+}
+.convierteteEn {
+    margin-top:30px;
+    font-size: 0.7rem;
+    margin-bottom:0px;
+}
+.ignite {
+    text-decoration:underline;
+    text-decoration-style: dotted;
+}
+.formulario {
+    width:50%;
+    margin:0 auto;
+}
+.recuerda {
+    font-size: 0.7rem;
+    text-align: left;margin-top: 1px;
+    padding:0 auto;
+}
+#enviar {
+    background:rgb(128, 214, 88);
+    color:white;
+}
+.d-grid { 
+    padding:0 auto;
+    margin:0 auto;
+}
+
+/*--------------------*/
+
+/*-------FOOTER-------*/
+footer {
+    background:rgb(7, 44, 78);
+    margin-top: 15px;
+    font-size: 0.8rem;
+    display: flex;
+
+}
+footer a {
+    text-decoration: none;
+    color:white;
+    justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 800px) {
+    .presentacion{
+        position: absolute;
+        text-align:center;
+        top:55%;
+        left:45%;
+    }
+}    
+
+/*--------VENTA DE TICKETS--------*/
+.convierteteEn {
+    margin-top:0;
+}
+
+.caja {
+    margin-top:50px;
+    text-align: center;
+    padding:0% 20%;
+}
+.tipos {
+    margin:0 auto;
+    padding:0 auto
+}
+.tipo {
+    margin:0px;
+    text-align: center;
+}
+.card-body {
+    text-align: center;
+    padding:0 auto;
+    margin:0 auto;
+}
+.card {
+    margin:2px;
+    padding:5px;
+    width:auto;
+    height:auto;
+}
+.labelito {
+    text-align: left
+}
+#estudiante, #trainee {
+    border:1px solid rgb(49, 49, 240)
+}
+#junior {
+    border:1px solid rgb(203, 203, 6)
+}
+.documentacion {
+    font-size:0.8rem
+}
+.alert {
+    width:98%;
+    margin:35px auto;
+}
+#enviar {
+    margin:2px
+}
+
+
+/* Acomodando el scroll con el enlace a*/
+section {
+    scroll-margin-top: 90px;
+}
+
